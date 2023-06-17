@@ -4,25 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+        
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Web Studio</title>
 </head>
 
 <!-- Main Page -->
 <body>
     <!-- Top Line -->
-    <header>
+    <header class="header">
         <!--Navigation menu-->
-        <nav>
-            <a href="./index.html">WebStudio</a>
-            <ul style="list-style-type:none;">
-                <Li><a href="/">Studio</a></Li>
-                <li><a href="/">Portfolio</a></li>
-                <li><a href="/">Contacts</a></li>
+        <nav class="Navigation">
+            <a class="header-logo" href="./index.html"><span class="fraction-logo">Web</span>Studio</a>
+            <ul class="Navigation-menu" style="list-style-type:none;">
+                <Li class="Navigation-list"><a href="http://127.0.0.1:5500/index.html">Studio</a></Li>
+                <li class="Navigation-list"><a href="http://127.0.0.1:5500/portfolio.html">Portfolio</a></li>
+                <li class="Navigation-list"><a href="/">Contacts</a></li>
             </ul>
         </nav>
         <!--contacts-->
         <address>
-            <ul style="list-style-type: none;">
+            <ul class="contacts" style="list-style-type: none;">
                 <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
