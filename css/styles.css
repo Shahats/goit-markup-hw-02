@@ -5,14 +5,8 @@ body {
 }
 
 /*Navigation menu*/
-.Navigation {
-    position: absolute;
-        width: 115px;
-        height: 24px;
-        left: 156px;
-        top: 24px;
 
-}
+.Navigation {}
 
 .header-logo {
     font-family: 'Raleway';
@@ -30,7 +24,35 @@ body {
     color: #4D5AE5;
 }
 
+.Navigation-menu {}
+.Navigation-list-one {}
+.Navigation-list-two {}
+.Navigation-list-three
 
+/*contacts*/
+
+.contacts
+.contacts-mail
+.contacts-tel
+
+/*hero image*/
+
+.hero-section
+.hero-title
+.hero-button
+
+/*description*/
+
+.description-title
+.one-list
+.Strategy
+.Strategy-parag
+.Punctuality
+.Punctuality-parag
+.Diligence
+.Diligence-parag
+.Technologies
+.Technologies-parag
 
 
 
