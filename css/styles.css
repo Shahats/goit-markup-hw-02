@@ -27,36 +27,68 @@ body {
 .Navigation-menu {}
 .Navigation-list-one {}
 .Navigation-list-two {}
-.Navigation-list-three
+.Navigation-list-three {}
 
 /*contacts*/
 
-.contacts
-.contacts-mail
-.contacts-tel
+.contacts {}
+.contacts-mail {}
+.contacts-tel {}
 
 /*hero image*/
 
-.hero-section
-.hero-title
-.hero-button
+.hero-section {}
+.hero-title {}
+.hero-button {}
 
 /*description*/
 
-.description-title
-.one-list
-.Strategy
-.Strategy-parag
-.Punctuality
-.Punctuality-parag
-.Diligence
-.Diligence-parag
-.Technologies
-.Technologies-parag
+.description-title {}
+.one-list {}
+.Strategy {}
+.Strategy-parag {}
+.Punctuality {}
+.Punctuality-parag {}
+.Diligence {}
+.Diligence-parag {}
+.Technologies {}
+.Technologies-parag {}
 
+/*presentation section*/
 
+.presentation-title {}
+.presentation-list {}
 
+/*Team*/
 
+.Team {}
+.Team-title {}
+.Team-list {}
+.one-name-photo {}
+.one-name {}
+.one-name-prof {}
+.two-name-photo {}
+.two-name {}
+.two-name-prof {}
+.three-name-photo {}
+.three-name {}
+.three-name-prof {}
+.four-name-photo {}
+.four-name {}
+.four-name-prof {}
 
+/*Footer*/
 
+.footer {}
+.footer-logo {}
+.footer-parag {}
 
+/*second page*/
+
+/*Filters*/
+
+/*Row 1*/
+
+/*Row 2*/
+
+/*Row 3*/
