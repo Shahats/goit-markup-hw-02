@@ -3,7 +3,6 @@ body {
     font-style: normal;
     background-color: #FFFFFF;
     color: #434455;
-
 }
 
 :root {
@@ -368,10 +367,6 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #F4F4FD;
-}
-
-.logo-web {
-    color: var(--text-decoration-color);
 }
 
 .footer-parag {
