@@ -3,12 +3,12 @@ body {
     font-style: normal;
     background-color: #FFFFFF;
     color: #434455;
-    color: #2E2F42;
+
 }
 
 :root {
     --text-decoration-color: #4D5AE5;
-    --text-paragr-color: #434455;
+    --text-title-color: #2E2F42;
 }
 
 /*Navigation menu*/
@@ -16,7 +16,7 @@ body {
 .Navigation {}
 
 .header-logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -25,6 +25,7 @@ body {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: var(--text-title-color);
 }
 
 .fraction-logo {
@@ -46,6 +47,7 @@ body {
     letter-spacing: 0.02em;
     width: 48px;
     height: 24px;
+    color: var(--text-title-color);
 }
 
 .Navigation-list-two {
@@ -55,6 +57,7 @@ body {
     letter-spacing: 0.02em;
     width: 66px;
     height: 24px;
+    color: var(--text-title-color);
 }
 
 .Navigation-list-three {
@@ -64,6 +67,7 @@ body {
     letter-spacing: 0.02em;
     width: 67px;
     height: 24px;
+    color: var(--text-title-color);
 }
 
 /*contacts*/
@@ -73,7 +77,6 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: var(--text-paragr-color);
 }
 
 .contacts-mail {}
@@ -136,6 +139,7 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
+    color: var(--text-title-color);
 }
 
 .Strategy-parag {
@@ -143,7 +147,6 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: var(--text-paragr-color);
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -157,6 +160,7 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
+    color: var(--text-title-color);
 }
 
 .Punctuality-parag {
@@ -164,7 +168,6 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: var(--text-paragr-color);
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -178,6 +181,7 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
+    color: var(--text-title-color);
 }
 
 .Diligence-parag {
@@ -185,7 +189,6 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: var(--text-paragr-color);
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -199,6 +202,7 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
+    color: var(--text-title-color);
 }
 
 .Technologies-parag {
@@ -206,7 +210,6 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: var(--text-paragr-color);
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -221,6 +224,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--text-title-color);
 }
 
 .presentation-list {}
@@ -243,6 +247,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--text-title-color);
 }
 
 .Team-list {}
@@ -258,6 +263,7 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
+    color: var(--text-title-color);
 }
 
 .one-name-prof {
@@ -266,7 +272,6 @@ body {
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.02em;
-    color: var(--text-paragr-color);
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -283,6 +288,7 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
+    color: var(--text-title-color);
 }
 
 .two-name-prof {
@@ -291,7 +297,6 @@ body {
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.02em;
-    color: var(--text-paragr-color);
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -308,6 +313,7 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
+    color: var(--text-title-color);
 }
 
 .three-name-prof {
@@ -316,7 +322,6 @@ body {
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.02em;
-    color: var(--text-paragr-color);
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -333,6 +338,7 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
+    color: var(--text-title-color);
 }
 
 .four-name-prof {
@@ -341,7 +347,6 @@ body {
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.02em;
-    color: var(--text-paragr-color);
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -354,7 +359,7 @@ body {
 }
 
 .footer-logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -588,6 +593,7 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
+    color: var(--text-title-color);
 }
 
 .list-concept {
@@ -597,7 +603,6 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: var(--text-paragr-color);
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -615,6 +620,7 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
+    color: var(--text-title-color);
 }
 
 .list-Payment {
@@ -624,7 +630,6 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: var(--text-paragr-color);
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -642,6 +647,7 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
+    color: var(--text-title-color);
 }
 
 .list-Meditation {
@@ -651,7 +657,6 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: var(--text-paragr-color);
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -673,6 +678,7 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
+    color: var(--text-title-color);
 }
 
 .list-Taxi {
@@ -682,7 +688,6 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: var(--text-paragr-color);
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -700,6 +705,7 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
+    color: var(--text-title-color);
 }
 
 .list-Screenccdhde {
@@ -709,7 +715,6 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: var(--text-paragr-color);
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -727,6 +732,7 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
+    color: var(--text-title-color);
 }
 
 .list-Courses {
@@ -736,7 +742,6 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: var(--text-paragr-color);
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -758,6 +763,7 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
+    color: var(--text-title-color);
 }
 
 .list-InstaStories {
@@ -767,7 +773,6 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: var(--text-paragr-color);
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -785,6 +790,7 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
+    color: var(--text-title-color);
 }
 
 .list-Food {
@@ -794,7 +800,6 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: var(--text-paragr-color);
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -812,6 +817,7 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
+    color: var(--text-title-color);
 }
 
 .list-Coffee {
@@ -821,7 +827,6 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: var(--text-paragr-color);
     flex: none;
     order: 1;
     flex-grow: 0;
