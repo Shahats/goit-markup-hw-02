@@ -2,7 +2,14 @@ body {
     font-family: 'Roboto', sans-serif;
             font-family: 'Raleway', sans-serif;
             font-style: normal;
-    color: #2E2F42;
+            background-color: #FFFFFF
+            color: #434455;
+            color: #2E2F42;
+}
+
+:root {
+    --text-decoration-color: #4D5AE5;
+    --text-paragr-color: #434455;
 }
 
 /*Navigation menu*/
@@ -22,7 +29,7 @@ body {
 }
 
 .fraction-logo {
-    color: #4D5AE5;
+    color: var(--text-decoration-color);
 }
 
 .Navigation-menu {
@@ -39,7 +46,6 @@ body {
     letter-spacing: 0.02em;
     width: 48px;
     height: 24px;
-    color: #2E2F42;
 }
 .Navigation-list-two {
     font-weight: 500;
@@ -48,7 +54,6 @@ body {
     letter-spacing: 0.02em;
     width: 66px;
     height: 24px;
-    color: #2E2F42;
 }
 .Navigation-list-three {
     font-weight: 500;
@@ -57,7 +62,6 @@ body {
     letter-spacing: 0.02em;
     width: 67px;
     height: 24px;
-    color: #2E2F42;
 }
 
 /*contacts*/
@@ -67,7 +71,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-paragr-color);
 }
 .contacts-mail {}
 .contacts-tel {}
@@ -129,7 +133,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-paragr-color);
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -148,7 +152,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-paragr-color);
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -167,7 +171,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-paragr-color);
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -186,7 +190,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-paragr-color);
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -240,7 +244,7 @@ body {
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-paragr-color);
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -262,7 +266,7 @@ body {
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-paragr-color);
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -284,7 +288,7 @@ body {
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-paragr-color);
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -306,7 +310,7 @@ body {
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-paragr-color);
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -329,7 +333,7 @@ body {
     color: #F4F4FD;
 }
 .logo-web {
-    color: #4D5AE5;
+    color: var(--text-decoration-color);
 }
 .footer-parag {
     font-weight: 400;
@@ -363,7 +367,7 @@ box-sizing: border-box;
     flex: none;
     order: 0;
     flex-grow: 0;
-    color: #4D5AE5;
+    color: var(--text-decoration-color);
 }
 .Filters-two-button {
 box-sizing: border-box;
@@ -380,7 +384,7 @@ box-sizing: border-box;
     flex: none;
     order: 1;
     flex-grow: 0;
-    color: #4D5AE5;
+    color: var(--text-decoration-color);
 }
 .Filters-three-button {
     box-sizing: border-box;
@@ -397,7 +401,7 @@ box-sizing: border-box;
         flex: none;
         order: 2;
         flex-grow: 0;
-        color: #4D5AE5;
+        color: var(--text-decoration-color);
 }
 .Filters-four-button {
     box-sizing: border-box;
@@ -414,7 +418,7 @@ box-sizing: border-box;
         flex: none;
         order: 3;
         flex-grow: 0;
-        color: #4D5AE5;
+        color: var(--text-decoration-color);
 }
 .Filters-five-button {
     box-sizing: border-box;
@@ -431,7 +435,7 @@ box-sizing: border-box;
         flex: none;
         order: 4;
         flex-grow: 0;
-        color: #4D5AE5;
+        color: var(--text-decoration-color);
 }
 
 .Filters-tekst-all {
@@ -543,7 +547,7 @@ height: 24px;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: var(--text-paragr-color);
         flex: none;
         order: 1;
         flex-grow: 0;
@@ -568,7 +572,7 @@ height: 24px;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: var(--text-paragr-color);
         flex: none;
         order: 1;
         flex-grow: 0;
@@ -593,7 +597,7 @@ height: 24px;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: var(--text-paragr-color);
         flex: none;
         order: 1;
         flex-grow: 0;
@@ -621,7 +625,7 @@ height: 24px;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: var(--text-paragr-color);
         flex: none;
         order: 1;
         flex-grow: 0;
@@ -646,7 +650,7 @@ height: 24px;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: var(--text-paragr-color);
         flex: none;
         order: 1;
         flex-grow: 0;
@@ -671,7 +675,7 @@ height: 24px;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: var(--text-paragr-color);
         flex: none;
         order: 1;
         flex-grow: 0;
@@ -699,7 +703,7 @@ height: 24px;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: var(--text-paragr-color);
         flex: none;
         order: 1;
         flex-grow: 0;
@@ -724,7 +728,7 @@ height: 24px;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-paragr-color);
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -749,7 +753,7 @@ height: 24px;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: var(--text-paragr-color);
         flex: none;
         order: 1;
         flex-grow: 0;
