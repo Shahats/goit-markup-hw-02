@@ -1,18 +1,26 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    background-color: #FFFFFF;
-    color: #434455;
-}
-
 :root {
     --text-decoration-color: #4D5AE5;
     --text-title-color: #2E2F42;
+    --white-color: #FFFFFF;
 }
 
-/*Navigation menu*/
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    background-color: var(--white-color);
+    color: #434455;
+}
 
-.Navigation {}
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style-type: none;
+}
+
+/*navigation menu*/
+
+.navigation {}
 
 .header-logo {
     font-family: 'Raleway', sans-serif;
@@ -31,7 +39,7 @@ body {
     color: var(--text-decoration-color);
 }
 
-.Navigation-menu {
+.navigation-menu {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -39,7 +47,9 @@ body {
     gap: 40px;
 }
 
-.Navigation-list-one {
+.navigation-list {}
+
+.stud {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -49,7 +59,7 @@ body {
     color: var(--text-title-color);
 }
 
-.Navigation-list-two {
+.portfo {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -59,7 +69,7 @@ body {
     color: var(--text-title-color);
 }
 
-.Navigation-list-three {
+.cont {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -71,16 +81,22 @@ body {
 
 /*contacts*/
 
-.contacts {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-}
+.contacts {}
 
 .contacts-mail {}
 
 .contacts-tel {}
+
+.address-link {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+}
+.address-link:hover,
+.address-link:focus {
+    color: #FF0000;
+}
 
 /*hero image*/
 
@@ -98,7 +114,7 @@ body {
     line-height: 60px;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 
 .hero-button {
@@ -118,7 +134,7 @@ body {
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: var(--white-color);
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -130,7 +146,7 @@ body {
 
 .one-list {}
 
-.Strategy {
+.strategy {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
@@ -141,7 +157,7 @@ body {
     color: var(--text-title-color);
 }
 
-.Strategy-parag {
+.strategy-parag {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -151,7 +167,7 @@ body {
     flex-grow: 0;
 }
 
-.Punctuality {
+.punctuality {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
@@ -162,7 +178,7 @@ body {
     color: var(--text-title-color);
 }
 
-.Punctuality-parag {
+.punctuality-parag {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -172,7 +188,7 @@ body {
     flex-grow: 0;
 }
 
-.Diligence {
+.diligence {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
@@ -183,7 +199,7 @@ body {
     color: var(--text-title-color);
 }
 
-.Diligence-parag {
+.diligence-parag {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -193,7 +209,7 @@ body {
     flex-grow: 0;
 }
 
-.Technologies {
+.technologies {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
@@ -204,7 +220,7 @@ body {
     color: var(--text-title-color);
 }
 
-.Technologies-parag {
+.technologies-parag {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -230,7 +246,7 @@ body {
 
 /*Team*/
 
-.Team {
+.team {
     position: absolute;
     width: 1440px;
     height: 732px;
@@ -239,7 +255,7 @@ body {
     background: #F4F4FD;
 }
 
-.Team-title {
+.team-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
@@ -249,7 +265,7 @@ body {
     color: var(--text-title-color);
 }
 
-.Team-list {}
+.team-list {}
 
 .one-name-photo {}
 
@@ -380,15 +396,16 @@ body {
 /*second page*/
 
 /*Filters*/
-.Filters {}
+.second-page {}
+.portfolio {}
 
-.Filters-menu {
+.filters-menu {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
 }
 
-.Filters-one-button {
+.filters-one-button {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -404,9 +421,18 @@ body {
     order: 0;
     flex-grow: 0;
     color: var(--text-decoration-color);
+        width: 21px;
+        height: 24px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
 }
 
-.Filters-two-button {
+.filters-two-button {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -422,9 +448,18 @@ body {
     order: 1;
     flex-grow: 0;
     color: var(--text-decoration-color);
+        width: 68px;
+        height: 24px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
 }
 
-.Filters-three-button {
+.filters-three-button {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -440,9 +475,18 @@ body {
     order: 2;
     flex-grow: 0;
     color: var(--text-decoration-color);
+        width: 30px;
+        height: 24px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
 }
 
-.Filters-four-button {
+.filters-four-button {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -458,9 +502,18 @@ body {
     order: 3;
     flex-grow: 0;
     color: var(--text-decoration-color);
+        width: 53px;
+        height: 24px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
 }
 
-.Filters-five-button {
+.filters-five-button {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -476,105 +529,54 @@ body {
     order: 4;
     flex-grow: 0;
     color: var(--text-decoration-color);
+        width: 78px;
+        height: 24px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
 }
-
-.Filters-tekst-all {
-    width: 21px;
-    height: 24px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-}
-
-.Filters-tekst-wsite {
-    width: 68px;
-    height: 24px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-}
-
-.Filters-tekst-app {
-    width: 30px;
-    height: 24px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-}
-
-.Filters-tekst-design {
-    width: 53px;
-    height: 24px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-}
-
-.Filters-tekst-marketing {
-    width: 78px;
-    height: 24px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-}
-
-.Filters-one-button:hover {
-    color: #FFFFFF;
+.filters-one-button:hover {
+    color: var(--white-color);
     background: #404BBF;
     border: none;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.Filters-two-button:hover {
-    color: #FFFFFF;
+.filters-two-button:hover {
+    color: var(--white-color);
     background: #404BBF;
     border: none;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.Filters-three-button:hover {
-    color: #FFFFFF;
+.filters-three-button:hover {
+    color: var(--white-color);
     background: #404BBF;
     border: none;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.Filters-four-button:hover {
-    color: #FFFFFF;
+.filters-four-button:hover {
+    color: var(--white-color);
     background: #404BBF;
     border: none;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.Filters-five-button:hover {
-    color: #FFFFFF;
+.filters-five-button:hover {
+    color: var(--white-color);
     background: #404BBF;
     border: none;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /*Row 1*/
-.row-one {}
+
+.row {}
 
 .interface-concept {}
 
@@ -591,19 +593,7 @@ body {
     color: var(--text-title-color);
 }
 
-.list-concept {
-    width: 30px;
-    height: 24px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
-.Payment {}
+.payment {}
 
 .title-Payment {
     width: 172px;
@@ -618,19 +608,7 @@ body {
     color: var(--text-title-color);
 }
 
-.list-Payment {
-    width: 75px;
-    height: 24px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
-.Meditation {}
+.meditation {}
 
 .title-Meditation {
     width: 143px;
@@ -645,23 +623,11 @@ body {
     color: var(--text-title-color);
 }
 
-.list-Meditation {
-    width: 30px;
-    height: 24px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
 /*Row 2*/
 
 .row-two {}
 
-.Taxi {}
+.taxi {}
 
 .title-Taxi {
     width: 113px;
@@ -676,19 +642,7 @@ body {
     color: var(--text-title-color);
 }
 
-.list-Taxi {
-    width: 75px;
-    height: 24px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
-.Screen {}
+.screen {}
 
 .title-Screen {
     width: 181px;
@@ -703,19 +657,7 @@ body {
     color: var(--text-title-color);
 }
 
-.list-Screenccdhde {
-    width: 51px;
-    height: 24px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
-.Courses {}
+.courses {}
 
 .title-Courses {
     width: 142px;
@@ -730,23 +672,11 @@ body {
     color: var(--text-title-color);
 }
 
-.list-Courses {
-    width: 75px;
-    height: 24px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
 /*Row 3*/
 
 .row-three {}
 
-.InstaStories {}
+.instaStories {}
 
 .title-InstaStories {
     width: 249px;
@@ -761,19 +691,8 @@ body {
     color: var(--text-title-color);
 }
 
-.list-InstaStories {
-    width: 51px;
-    height: 24px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
 
-.Food {}
+.food {}
 
 .title-Food {
     width: 124px;
@@ -788,19 +707,7 @@ body {
     color: var(--text-title-color);
 }
 
-.list-Food {
-    width: 65px;
-    height: 24px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
-.Coffee {}
+.coffee {}
 
 .title-Coffee {
     width: 119px;
@@ -815,8 +722,7 @@ body {
     color: var(--text-title-color);
 }
 
-.list-Coffee {
-    width: 65px;
+.list-portfolio {
     height: 24px;
     font-weight: 400;
     font-size: 16px;
