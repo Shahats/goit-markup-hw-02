@@ -5,7 +5,7 @@
 }
 
 .body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     background-color: var(--white-color);
     color: #434455;
@@ -30,11 +30,12 @@
     line-height: 21px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--text-title-color);
+    color: var(--text-decoration-color);
+
 }
 
 .fraction-logo {
-    color: var(--text-decoration-color);
+    color: var(--text-title-color);
 }
 
 .navigation-menu {}
@@ -284,119 +285,7 @@
     letter-spacing: 0.02em;
 }
 
-/*Footer*/
-
-.footer {
-    background: #2E2F42;
-}
-
-.footer-logo {
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #F4F4FD;
-}
-
-.footer-parag {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #F4F4FD;
-}
-
-/*second page*/
-
-/*Filters*/
-.second-page {}
-.portfolio {}
-
-.filters-menu {}
-
-.filters-one-button {
-    background: #F4F4FD;
-    color: var(--text-decoration-color);
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        text-align: center;
-        letter-spacing: 0.04em;
-}
-
-.filters-two-button {
-    background: #F4F4FD;
-    color: var(--text-decoration-color);
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        text-align: center;
-        letter-spacing: 0.04em;
-}
-
-.filters-three-button {
-    background: #F4F4FD;
-    color: var(--text-decoration-color);
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        text-align: center;
-        letter-spacing: 0.04em;
-}
-
-.filters-four-button {
-    background: #F4F4FD;
-    color: var(--text-decoration-color);
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        text-align: center;
-        letter-spacing: 0.04em;
-}
-
-.filters-five-button {
-    background: #F4F4FD;
-    color: var(--text-decoration-color);
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        text-align: center;
-        letter-spacing: 0.04em;
-}
-.filters-one-button:hover {
-    color: var(--white-color);
-    background: #404BBF;
-    border: none;
-}
-
-.filters-two-button:hover {
-    color: var(--white-color);
-    background: #404BBF;
-    border: none;
-}
-
-.filters-three-button:hover {
-    color: var(--white-color);
-    background: #404BBF;
-    border: none;
-}
-
-.filters-four-button:hover {
-    color: var(--white-color);
-    background: #404BBF;
-    border: none;
-}
-
-.filters-five-button:hover {
-    color: var(--white-color);
-    background: #404BBF;
-    border: none;
-}
-
-/*Row 1*/
+/*Portfolio*/
 
 .row {}
 
@@ -430,8 +319,6 @@
     color: var(--text-title-color);
 }
 
-/*Row 2*/
-
 .row-two {}
 
 .taxi {}
@@ -464,45 +351,32 @@
     color: var(--text-title-color);
 }
 
-/*Row 3*/
+/*Footer*/
 
-.row-three {}
-
-.instaStories {}
-
-.title-InstaStories {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: var(--text-title-color);
+.footer {
+    background: #2E2F42;
 }
 
-
-.food {}
-
-.title-Food {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: var(--text-title-color);
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
 }
 
-.coffee {}
-
-.title-Coffee {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: var(--text-title-color);
+.fraction-footer {
+    color: var(--text-decoration-color);
 }
 
-.list-portfolio {
+.footer-parag {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    flex: none;
+    color: #F4F4FD;
 }
+
