@@ -22,12 +22,13 @@
 
 .navigation {}
 
+
 .header-logo {
     font-family: 'Raleway',sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 56px;
-    line-height: 60px;
+    font-size: 18px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--text-decoration-color);
@@ -50,12 +51,22 @@
     color: var(--text-title-color);
 }
 
+.stud:hover,
+.stud:focus {
+    color: #404bbf;
+}
+
 .portfo {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--text-title-color);
+}
+
+.portfo:hover,
+.portfo:focus {
+    color: #404bbf;
 }
 
 .cont {
@@ -66,9 +77,16 @@
     color: var(--text-title-color);
 }
 
+.cont:hover,
+.cont:focus {
+    color: #404bbf;
+}
+
 /*contacts*/
 
-.contacts {}
+.contacts {
+    font-style: normal;
+}
 
 .contacts-mail {}
 
