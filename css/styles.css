@@ -213,7 +213,7 @@
 .title-concept {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-title-color);
 }
@@ -224,55 +224,14 @@
 }
 .payment {}
 
-.title-Payment {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--text-title-color);
-}
-
 .meditation {}
-
-.title-Meditation {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: var(--text-title-color);
-}
-
-.row-two {}
 
 .taxi {}
 
-.title-Taxi {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: var(--text-title-color);
-}
-
 .screen {}
-
-.title-Screen {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: var(--text-title-color);
-}
 
 .courses {}
 
-.title-Courses {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: var(--text-title-color);
-}
 
 /*Footer*/
 
@@ -283,16 +242,16 @@
 .footer-logo {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #F4F4FD;
+    color: #4d5ae5;
 }
 
 .fraction-footer {
-    color: var(--text-decoration-color);
+    color: #f4f4fd;
 }
 
 .footer-parag {
