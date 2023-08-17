@@ -56,32 +56,6 @@
     color: #404bbf;
 }
 
-.portfo {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: var(--text-title-color);
-}
-
-.portfo:hover,
-.portfo:focus {
-    color: #404bbf;
-}
-
-.cont {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: var(--text-title-color);
-}
-
-.cont:hover,
-.cont:focus {
-    color: #404bbf;
-}
-
 /*contacts*/
 
 .contacts {
@@ -159,51 +133,6 @@
     color: #434455;
 }
 
-.punctuality {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: var(--text-title-color);
-}
-
-.punctuality-parag {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-}
-
-.diligence {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: var(--text-title-color);
-}
-
-.diligence-parag {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-}
-
-.technologies {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: var(--text-title-color);
-}
-
-.technologies-parag {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-}
-
 /*presentation section*/
 
 .presentation-title {
@@ -226,7 +155,7 @@
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -235,6 +164,9 @@
 
 .team-list {}
 
+.team-names {
+    background-color: #FFFFFF;
+}
 .one-name-photo {}
 
 .one-name {
@@ -252,67 +184,28 @@
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .two-name-photo {}
 
-.two-name {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--text-title-color);
-}
-
-.two-name-prof {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    letter-spacing: 0.02em;
-}
-
 .three-name-photo {}
-
-.three-name {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--text-title-color);
-}
-
-.three-name-prof {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    letter-spacing: 0.02em;
-}
 
 .four-name-photo {}
 
-.four-name {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: var(--text-title-color);
-}
-
-.four-name-prof {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    letter-spacing: 0.02em;
-}
-
 /*Portfolio*/
 
+.portfolio {}
+
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 2%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
 .row {}
 
 .interface-concept {}
