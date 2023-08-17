@@ -74,7 +74,7 @@
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: var(--text-title-color);
+    color: #434455;
 }
 
 .cont:hover,
