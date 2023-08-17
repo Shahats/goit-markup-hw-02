@@ -74,7 +74,7 @@
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-title-color);
 }
 
 .cont:hover,
@@ -97,10 +97,11 @@
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.02em;
+        color: #434455;
 }
 .address-link:hover,
 .address-link:focus {
-    color: #FF0000;
+    color: #404bbf;
 }
 
 /*hero image*/
@@ -112,23 +113,29 @@
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--white-color);
 }
 
 .hero-button {
+    font-family: 'Roboto', sans-serif;
     background: #4D5AE5;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: var(--white-color);
+        cursor: pointer;
 }
 
-.hero-button-text {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.04em;
-    color: var(--white-color);
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
 }
+
+.hero-button-text {}
 
 /*description*/
 
